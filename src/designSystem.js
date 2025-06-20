@@ -10,7 +10,9 @@ const COLOR = {
   transparent: 'transparent',
   black: 'black',
   white: 'white',
-  orange: '#E98232'
+  gray: '#808080',
+  blue: '#3D7BD9',
+  blueLight: '#E8F1FF'
 }
 
 /**
