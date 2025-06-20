@@ -1,6 +1,6 @@
 {
   "name": "create-symbols-grid",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Interactive grid selection modal using Symbols and DOMQL",
   "keywords": [
     "template",

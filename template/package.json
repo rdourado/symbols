@@ -1,6 +1,6 @@
 {
   "name": "@rdourado/symbols-grid",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Interactive grid selection modal using Symbols and DOMQL",
   "repository": "https://github.com/rdourado/symbols",
   "author": "Rafael Dourado",
