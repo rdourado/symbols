@@ -5,11 +5,10 @@ import { create, Flex } from 'smbls'
 import designSystem from './designSystem'
 import * as components from './components'
 import pages from './pages'
-import background from './assets/background.png'
+
+const background = new URL('assets/background.png', import.meta.url)
 
 create(
-  // Configuring application root
-  // https://symbols.app/api/element#root
   {
     extend: Flex,
 
@@ -19,25 +18,16 @@ create(
       align: 'center center',
       minHeight: '100vh',
       background: `center / cover url(${background})`,
+      backgroundColor: '#a07fe2', // The average color of the background image
       fontFamily: '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif'
     },
 
     content: {}
   },
 
-  // Configuring context
-  // https://symbols.app/api/context
   {
-    // Configuring design system
-    // https://symbols.app/docs/design-system
     designSystem,
-
-    // Reusable components
-    // https://symbols.app/docs/components
     components,
-
-    // Pages to be rendered by URL location
-    // https://symbols.app/docs/pages
     pages
   }
 )
