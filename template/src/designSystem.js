@@ -26,18 +26,14 @@ const GRADIENT = {}
  * @tutorial https://docs.symbols.app/theme
  */
 const THEME = {
-  document: {
+  default: {
     '@dark': {
-      color: 'white',
-      background: 'black'
+      backgroundColor: 'black',
+      color: 'white'
     },
     '@light': {
-      background: 'white',
+      backgroundColor: 'white',
       color: 'black'
-    },
-    '@midnight': {
-      background: '#112233',
-      color: 'white'
     }
   }
 }

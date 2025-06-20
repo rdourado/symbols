@@ -20,7 +20,7 @@ export const GridSelection = {
   },
 
   props: {
-    theme: 'document',
+    theme: 'default',
     flow: 'column',
     gap: 'B',
     padding: 'A1 B',

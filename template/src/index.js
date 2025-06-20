@@ -13,13 +13,13 @@ create(
     extend: Flex,
 
     props: {
-      theme: 'document',
       flow: 'column',
       align: 'center center',
       minHeight: '100vh',
-      background: `center / cover url(${background})`,
+      fontFamily: '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif',
       backgroundColor: '#a07fe2', // The average color of the background image
-      fontFamily: '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif'
+      backgroundImage: `url(${background})`,
+      backgroundSize: 'cover'
     },
 
     content: {}
