@@ -1,6 +1,6 @@
 {
   "name": "create-symbols-grid",
-  "version": "2.29.4",
+  "version": "0.0.4",
   "description": "Interactive grid selection modal using Symbols and DOMQL",
   "keywords": [
     "template",
@@ -8,42 +8,24 @@
     "symbols",
     "grid"
   ],
-  "repository": "https://github.com/rdourado/symbols",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdourado/symbols.git"
+  },
   "author": "Rafael Dourado",
   "type": "module",
   "bin": {
-    "create-symbols-grid": "./cli.js"
+    "create-symbols-grid": "cli.js"
   },
   "files": [
     "cli.js",
-    "src/",
-    "bin/",
-    "index.html",
-    "symbols.json",
-    "README.md",
     "template/"
   ],
-  "scripts": {
-    "build": "parcel build index.html",
-    "start": "parcel index.html"
-  },
   "dependencies": {
-    "inquirer": "^9.0.0",
+    "chalk": "^5.4.1",
+    "inquirer": "^9.3.7",
+    "replace-in-file": "^8.3.0",
     "smbls": "^2.29.4"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.27.4",
-    "@babel/eslint-parser": "^7.27.5",
-    "@babel/preset-env": "^7.27.2",
-    "@parcel/babel-preset-env": "^2.15.2",
-    "@parcel/transformer-inline-string": "^2.15.2",
-    "@parcel/transformer-raw": "^2.15.2",
-    "buffer": "^6.0.3",
-    "eslint": "^8.57.1",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.31.0",
-    "parcel": "^2.15.2",
-    "standard": "^17.1.2"
   },
   "publishConfig": {
     "access": "public"

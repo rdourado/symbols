@@ -1,19 +1,31 @@
-# Symbols Starter Kit
-Example dev setup (boilerplate) to use [DOMQL](https://github.com/domql/domql). You can also check live editor [Playground](https://domql.com/playground/).
+# Symbols Starter Kit w/ Grid Selection
 
-### Setup
+## Getting Started
 
-1. Clone the repo
-```
-git clone git@github.com:symbo-ls/starter-kit.git
+You can create a new project using this starter kit with either `npm create` or `npm init`.
+
+### Using `npm create`
+
+```sh
+npm create symbols-grid@latest my-app
+cd my-app
+npm install
 ```
 
-2. Install scripts
-```
-yarn
+### Using `npm init`
+
+```sh
+npm init symbols-grid@latest my-app
+cd my-app
+npm install
 ```
 
-3. Run the project
-```
-yarn start
+Replace `my-app` with your desired project name.
+
+## Development
+
+After installing dependencies, you can start developing your project:
+
+```sh
+npm start
 ```
