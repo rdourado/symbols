@@ -1,18 +1,34 @@
 {
-  "name": "@rdourado/starter-kit",
+  "name": "create-symbols-grid",
   "version": "2.29.4",
   "description": "Interactive grid selection modal using Symbols and DOMQL",
+  "keywords": [
+    "template",
+    "npm-create",
+    "symbols",
+    "grid"
+  ],
   "repository": "https://github.com/rdourado/symbols",
   "author": "Rafael Dourado",
   "type": "module",
   "bin": {
-    "create-symbols-grid": "./bin/cli.js"
+    "create-symbols-grid": "./cli.js"
   },
+  "files": [
+    "cli.js",
+    "src/",
+    "bin/",
+    "index.html",
+    "symbols.json",
+    "README.md",
+    "template/"
+  ],
   "scripts": {
     "build": "parcel build index.html",
     "start": "parcel index.html"
   },
   "dependencies": {
+    "inquirer": "^9.0.0",
     "smbls": "^2.29.4"
   },
   "devDependencies": {
@@ -28,5 +44,8 @@
     "eslint-plugin-import": "^2.31.0",
     "parcel": "^2.15.2",
     "standard": "^17.1.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
